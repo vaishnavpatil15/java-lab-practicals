@@ -21,11 +21,11 @@ class employee
     void set()
     {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter employee id : ");
+        System.out.print("Enter employee id : ");
         id=sc.next();
-        System.out.println("Enter employee name : ");
+        System.out.print("Enter employee name : ");
         name=sc.next();
-        System.out.println("Enter employee salary : ");
+        System.out.print("Enter employee salary : ");
         sal=sc.nextInt();
     }
 
@@ -59,7 +59,7 @@ class constructor
         System.out.println("\n\nNAME : " + e1.getName());
         System.out.println("ID : " + e1.getId());
         System.out.println("SALARY : " + e1.getSal());
-        System.out.println("\nRaised Salary : " + e1.raise_salary());
+        System.out.println("\nRaised Salary : " + e1.raise_salary()+"\n\n");
 
 
     }
